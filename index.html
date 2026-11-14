@@ -3,33 +3,80 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TECHNOTOUCH METALS TRADING L.L.C Games</title>
+<title>TECHNOTOUCH METALS TRADING L.L.C - Official Games Portal</title>
 <style>
   :root { color-scheme: dark; }
-  body { margin: 0; background: #120b1e; color: #f4ece4; font: 16px/1.6 system-ui, sans-serif; text-align: center; }
-  main { max-width: 640px; margin: 0 auto; padding: 32px 16px; }
-  h1 { color: #ffc642; font-size: 30px; line-height: 1.2; margin: 12px 0; }
-  a { color: #ffc642; }
-  img { width: 128px; height: 128px; border-radius: 24px; }
-  .play { display: inline-block; margin: 16px 0; padding: 14px 40px; border-radius: 14px; background: #ffb02e; color: #3a1b00; font-weight: 800; text-decoration: none; }
-  iframe { display: block; width: min(100%, 405px); aspect-ratio: 9 / 16; margin: 20px auto; border: 0; border-radius: 16px; }
-  footer { padding: 24px 16px; color: #c9b8a8; font-size: 14px; }
+  body { margin: 0; background: #0f172a; color: #f8fafc; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-align: center; }
+  main { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+  h1 { color: #38bdf8; font-size: 32px; line-height: 1.2; margin: 12px 0 6px 0; }
+  .subtitle { color: #94a3b8; font-size: 16px; margin-bottom: 36px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; margin-bottom: 40px; text-align: left; }
+  .card { background: #1e293b; border: 1px solid #334155; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; }
+  .card h2 { color: #f1f5f9; font-size: 20px; margin: 12px 0 6px 0; }
+  .card p { color: #94a3b8; font-size: 14px; line-height: 1.5; flex-grow: 1; }
+  .card-links { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+  .btn-play { display: block; text-align: center; padding: 10px 16px; border-radius: 8px; background: #0284c7; color: #ffffff; font-weight: 700; text-decoration: none; font-size: 14px; }
+  .btn-play:hover { background: #0369a1; }
+  .legal-links { font-size: 13px; color: #64748b; display: flex; gap: 12px; justify-content: center; }
+  .legal-links a { color: #38bdf8; text-decoration: none; }
+  .legal-links a:hover { text-decoration: underline; }
+  footer { padding: 32px 16px; border-top: 1px solid #1e293b; color: #64748b; font-size: 13px; }
+  footer a { color: #94a3b8; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
 <main>
 
 <h1>TECHNOTOUCH METALS TRADING L.L.C</h1>
-<p>Games developed, owned and published by TECHNOTOUCH METALS TRADING L.L.C.</p>
-<img src="molten-merge/icon.png" alt="Molten Merge icon">
-<h2>Molten Merge</h2>
-<p>Drop molten metals into the crucible and fuse matching ones, from aluminum all the way to platinum.</p>
-<a class="play" href="molten-merge/">Play Molten Merge</a>
+<p class="subtitle">Official Games Portal &amp; Interactive Media Division<br>Dubai, United Arab Emirates &bull; Commercial License #962805</p>
+
+<div class="grid">
+  <!-- Five Star Flight -->
+  <div class="card">
+    <h2>Five Star Flight</h2>
+    <p>High-altitude airline coordination mini game. Guide flights through turbulence, serve passengers, and earn five-star prestige across international routes.</p>
+    <div class="card-links">
+      <div class="legal-links">
+        <a href="five-star-flight/privacy.html">Privacy Policy</a>
+        <span>&bull;</span>
+        <a href="five-star-flight/terms.html">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technotouch Blade -->
+  <div class="card">
+    <h2>Technotouch Blade</h2>
+    <p>High-octane cyberpunk action slicing game. Master the neon katana, dodge laser hazards, trigger Fever Mode overdrive, and climb the global leaderboards.</p>
+    <div class="card-links">
+      <a class="btn-play" href="https://gm215.github.io/technotouch-blade/" target="_blank">Play Technotouch Blade</a>
+      <div class="legal-links">
+        <a href="https://gm215.github.io/technotouch-blade/">Game Page</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Molten Merge -->
+  <div class="card">
+    <h2>Molten Merge</h2>
+    <p>Precision physics metallurgy game. Drop molten ores into the industrial crucible and fuse matching metals from aluminum to pure platinum.</p>
+    <div class="card-links">
+      <a class="btn-play" href="molten-merge/">Play Molten Merge</a>
+      <div class="legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <span>&bull;</span>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 </main>
 <footer>
-  © 2026 TECHNOTOUCH METALS TRADING L.L.C. All rights reserved.<br>
-  <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+  <p>&copy; 2026 TECHNOTOUCH METALS TRADING L.L.C. All rights reserved.</p>
+  <p>Hamad Abdulaziz Abdullah Al Jomaih Building, Al Barsha First, Dubai, UAE</p>
+  <p>Inquiries: <a href="mailto:gm@technotouch.info">gm@technotouch.info</a></p>
 </footer>
 </body>
 </html>
